@@ -1,14 +1,13 @@
 import './Home.css'
 import Header from '../../components/Header/Header'
+import Hero from '../../Hero/Hero'
 
 function Home() {
   return (
     <>
         <section className="hero-section">
             <Header />
-            <div className="hero-content">
-                <p>Best safaris  and adventures</p>
-            </div>
+            <Hero />
         </section>
     </>
   )

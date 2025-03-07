@@ -1,0 +1,57 @@
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.hero-details{
+    border-right: .2rem solid var(--color-grey);
+    padding-right: 4rem;
+}
+.hero-tagline-first{
+    font-family: var(--tertiary-font);
+    color: var(--color-red);
+    font-size: 3.2rem;
+    text-align: right;
+}
+
+.hero-tagline-second{
+    font-size: 12.6rem;
+    font-family: var(--secondary-font);
+}
+.hero-tagline-third{
+    font-size: 2.1rem;
+    margin-bottom: 4rem;
+    text-align: right;
+}
+.hero-btn{
+    padding-left: 17rem;
+
+}
+.hero-discounts{
+    padding-left: 4rem;
+}
+.discounts-title{
+    font-size: 2.4rem;
+}
+.discounts-description{
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    color: var(--color-white-dark);
+    line-height: 1.5;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.discounts-list{
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    /* padding-left: */
+}
+.discounts-list li:before{
+    color: var(--color-red);
+    content: ".";
+    font-size: 5rem;
+    line-height: .4;
+    padding-right: .5rem;
+}
