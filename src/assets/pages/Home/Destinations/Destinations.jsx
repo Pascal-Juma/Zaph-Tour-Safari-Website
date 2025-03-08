@@ -17,12 +17,12 @@ function Destinations() {
         < Intro title="Modern & Beautiful" text="Our Most Popular Safaris" />
         </div>
         <div className="destinations-cards">
-          <Card img={mtKenya} title={"Mt Kenya"} rating={<FaStar />* 4} details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 5,000"} price={"per Adult"} link={"Explore Now"}/>
-          <Card img={tsavo} title={"Tsavo National Park"} rating={<FaStar />* 4} details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 10,000"} price={"per Adult"} link={"Explore Now"}/>
-          <Card img={ruwenzori} title={"Mt Ruwenzori"} rating={<FaStar /> * 4} details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 15,000"} price={"per Adult"} link={"Explore Now"}/>
-          <Card img={coastal} title={"Coastal Kenya"} rating={<FaStar /> * 4} details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 50,000"} price={"per Adult"} link={"Explore Now"}/>
-          <Card img={nairobi} title={"Nairobi National Park"} rating={<FaStar /> * 4} details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 25,000"} price={"per Adult"} link={"Explore Now"}/>
-          <Card img={lNakuru} title={"Lake Nakuru"} rating={<FaStarHalfStroke /> * 4} details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 45,000"} price={"per Adult"} link={"Explore Now"}/>
+          <Card img={mtKenya} title={"Mt Kenya"} rating={<FaStar />} details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 5,000"} price={"per Adult"} link={"Explore Now"}/>
+          <Card img={tsavo} title={"Tsavo National Park"} rating={<FaStar /> } details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 10,000"} price={"per Adult"} link={"Explore Now"}/>
+          <Card img={ruwenzori} title={"Mt Ruwenzori"} rating={<FaStar /> } details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 15,000"} price={"per Adult"} link={"Explore Now"}/>
+          <Card img={coastal} title={"Coastal Kenya"} rating={<FaStar />} details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 50,000"} price={"per Adult"} link={"Explore Now"}/>
+          <Card img={nairobi} title={"Nairobi National Park"} rating={<FaStar /> } details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 25,000"} price={"per Adult"} link={"Explore Now"}/>
+          <Card img={lNakuru} title={"Lake Nakuru"} rating={<FaStarHalfStroke /> } details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={" Ksh. 45,000"} price={"per Adult"} link={"Explore Now"}/>
         </div>
       </div>
     </>

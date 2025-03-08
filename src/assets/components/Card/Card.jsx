@@ -1,6 +1,6 @@
 import './Card.css'
 
-function Card({img, title, ratings, details, prices, payment, link}) {
+function Card({img, title, ratings, details, prices, payment, price, link}) {
 return (
     <>
         <div className="destinations-container">
@@ -14,7 +14,7 @@ return (
                     {details}
                 </p>
                 <p className="destinations-prices">
-                {prices}<span className="destinations-payment">{payment} </span>{prices}
+                {prices}<span className="destinations-payment">{payment}</span> {price}
                 </p>
                 <p className="destinations-link"><a href="#" rel="noreferrer noopener">
                 {link}</a>

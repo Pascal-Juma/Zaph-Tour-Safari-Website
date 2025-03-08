@@ -1,0 +1,43 @@
+.testimonial-card{
+    width: 38rem;
+    height: 31rem;
+    border-radius: .8rem;
+    box-shadow: .4rem .6rem 3rem rgba(133, 133, 133, .8);
+    padding: 2.5rem;
+}
+.card-top{
+    border-radius: .5rem;
+    background-color: rgba(249, 249, 249, .9);
+}
+.tourist-name{
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-bottom: .4rem;
+}
+.tourist-description{
+    color: var(--color-grey);
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.card-top{
+    display: flex;
+    gap: 1rem;
+}
+.card-image{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1.5rem; 
+}
+.card-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100;
+}
+.tourist-comments{
+    color: var(--color-grey);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}

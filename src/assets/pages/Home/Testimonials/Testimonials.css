@@ -1,0 +1,21 @@
+.testimonials-section{
+    margin-bottom: 5rem;
+    margin-inline: 8rem;
+}
+.testimonials-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragragh-content{
+    color: var(--color-grey);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.testimonials-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
