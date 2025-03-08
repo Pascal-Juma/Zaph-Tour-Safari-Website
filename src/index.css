@@ -28,5 +28,7 @@ ul,ol{
   --color-white-dark: #FFFFFFCC;
   --color-red: #F44C28;
   --color-grey: #858585;
+  --color-black: #050505;
   --border: .1rem solid var(--color-red);
+  --color-gold: #F39735;
 }

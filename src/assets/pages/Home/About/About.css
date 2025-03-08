@@ -11,8 +11,8 @@
 }
 @media screen and (max-width: 73.875em){
     .about-section{
-        flex-direction: column;
-        gap: 4rem;
+    flex-direction: column;
+    gap: 4rem;
     }
 }
 .about-left{

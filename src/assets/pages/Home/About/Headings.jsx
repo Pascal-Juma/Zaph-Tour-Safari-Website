@@ -1,5 +1,5 @@
 import './Headings.css'
-import Intro from '../../components/Intro/Intro'
+import Intro from '../../../components/Intro/Intro'
 
 function Headings() {
   return (

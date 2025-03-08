@@ -1,0 +1,14 @@
+.destinations-section{
+    margin-bottom: 5rem;
+}
+.destinations-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.destinations-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}

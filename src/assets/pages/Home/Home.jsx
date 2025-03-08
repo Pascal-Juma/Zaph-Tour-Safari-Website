@@ -1,6 +1,6 @@
 import './Home.css'
 import Header from '../../components/Header/Header'
-import Hero from '../../Hero/Hero'
+import Hero from './Hero/Hero'
 
 function Home() {
   return (

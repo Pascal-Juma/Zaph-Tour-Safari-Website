@@ -1,7 +1,7 @@
 import { MdOutlineHorizontalRule } from "react-icons/md";
 import './Hero.css';
-import Button from '../components/Button/Button';
-import Logo from '../components/Logo/Logo';
+import Button from '../../../components/Button/Button';
+import Logo from '../../../components/Logo/Logo';
 
 function Hero() {
   return (
