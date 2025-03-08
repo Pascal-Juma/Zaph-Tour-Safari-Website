@@ -1,9 +1,9 @@
 import './Button.css'
 
-function Button() {
+function Button(props) {
   return (
     <>
-      <button type="submit" className="btn">Book Now</button>
+      <button type="submit" className="btn">{props.btn}</button>
     </>
   )
 }

@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
     <div className="header-section">
-        <Button />
+        <Button btn="Book Now" />
         <Navigation />
         <Logo />
     </div>

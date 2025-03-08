@@ -1,0 +1,14 @@
+.title-ref{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: var(--color-red);
+    font-weight: 500;
+}
+.text-ref{
+    font-family: var(--prime-font);
+    font-size:  3.5rem;
+    font-weight: 600;
+}
+.intro-text{
+    margin-bottom: 2.5rem;
+}

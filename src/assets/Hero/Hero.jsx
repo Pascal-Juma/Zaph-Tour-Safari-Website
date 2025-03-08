@@ -9,10 +9,10 @@ function Hero() {
         <div className="hero-content">
             <div className="hero-details">
                 <p className="hero-tagline-first"><span className="line"><MdOutlineHorizontalRule/></span>Its Time to</p>
-                <h1 className="hero-tagline-second">Travel</h1>
-                <p className="hero-tagline-third">!Best Safaris and Adventures</p>
+                <h1 className="hero-tagline-second">Explore</h1>
+                <p className="hero-tagline-third">Best Safaris and Adventures!</p>
                 <div className="hero-btn">
-                    <Button />
+                    <Button btn="Book Now" />
                 </div>
             </div>
             <div className="hero-discounts">
