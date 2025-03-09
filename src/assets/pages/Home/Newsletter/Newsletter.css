@@ -1,5 +1,4 @@
 .newsletter-section{
-    border: var(--border);
     height: 70vh;
     background-image: linear-gradient(to top, rgba(5, 5, 5, 0.4), rgba(5, 5, 5, .4)), url(../../../images/Newsletter.jpg);
     background-position: center;

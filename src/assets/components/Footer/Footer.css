@@ -1,0 +1,89 @@
+.footer-section{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 4rem  5rem;
+    background-color: var(--color-grey-dark);
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 53.375em){
+    .footer-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .footer-company{
+        min-width: 20%;
+        padding: 0;
+    }
+    .footer-links{
+        min-width: 20%;
+        padding: 0;
+    }
+    .footer-contact{
+        min-width: 20%;
+        padding: 0;
+    }
+    .footer-socials{
+        min-width: 20%;
+        padding: 0;
+    }
+}
+.footer-company{
+    width: 20%;
+}
+.branding-details{
+    color: var(--color-white);
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: var(--prime-font);
+}
+.footer-links{
+    width: 20%;
+}
+.links-title{
+    font-size: 1.9rem;
+    color: var(--color-red);
+    margin-bottom: .3rem;
+}
+.links-list{
+    transition: all .4s;
+}
+.links-list a{
+    color: var(--color-white);
+    line-height: 1.4;
+    font-family: var(--prime-font);
+}
+.links-list a:hover{
+    color: var(--color-red)
+}
+.contact-container{
+    width: 25%;
+}
+.contact-heading{
+    font-size: 1.9rem;
+    color: var(--color-white);
+    margin-bottom: .5rem;
+}
+.contact-info{
+    color: var(--color-white);
+    font-size: 1.7rem;
+    font-family: var(--prime-font);
+    line-height: 2;
+}
+.contact-info svg{
+    margin-right: .3rem;
+}
+.footer-socials{
+    width: 22%;
+    color:var(--color-white);
+    font-family: var(--prime-font);
+}
+.footer-socials svg{
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+}
+.footer-rights{
+    line-height: 1.5;
+}

@@ -6,12 +6,12 @@ function Navigation() {
     <>
     <nav className="header-navigation">
       <ol className="nav-list">
-          <Links to={"/contact"} label="contact" />
-          <Links to={"/blog"} label="blog" />
-          <Links to={"/safari"} label="safari" />
-          <Links to={"/destination"} label="destination" />
-          <Links to={"/blog"} label="about" />
-          <Links to={"/"} label="home" />
+          <Links to={"/contact"} label="Contact Us" />
+          <Links to={"/blog"} label="Blog" />
+          <Links to={"/safari"} label="Safari" />
+          <Links to={"/destination"} label="Destination" />
+          <Links to={"/blog"} label="About Us" />
+          <Links to={"/"} label="Home" />
       </ol>
    </nav>
     </>
