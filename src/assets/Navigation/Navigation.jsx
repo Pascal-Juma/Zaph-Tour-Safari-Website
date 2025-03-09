@@ -1,16 +1,17 @@
 import './Navigation.css'
+import Links from '../components/Links/Links'
 
 function Navigation() {
   return (
     <>
     <nav className="header-navigation">
       <ol className="nav-list">
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Tour</a></li>
-        <li><a href="#">Destinations</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Home</a></li>  
+          <Links to={"/contact"} label="contact" />
+          <Links to={"/blog"} label="blog" />
+          <Links to={"/safari"} label="safari" />
+          <Links to={"/destination"} label="destination" />
+          <Links to={"/blog"} label="about" />
+          <Links to={"/"} label="home" />
       </ol>
    </nav>
     </>

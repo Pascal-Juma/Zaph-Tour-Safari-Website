@@ -12,6 +12,9 @@
     gap: 4rem;
     font-weight: 500;
 }
+.active-link{
+    color: var(--color-red);
+}
 .nav-list a{
     color: var(--color-white);
     font-size: 1.9rem;
