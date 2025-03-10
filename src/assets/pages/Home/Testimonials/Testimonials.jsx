@@ -10,7 +10,7 @@ function Testimonials() {
     <>
       <div className="testimonials-section">
         <div className="testimonials-intro">
-            <Intro title="Testimonials" text="What our Tourists Say"/>
+            <Intro title="Testimonials" text="What our Tourists Say" color="black"/>
         </div>
         <div className="testimonials-paragragh">
         <p className="paragragh-content">We are pleased to announce that after 10 years filled with experience, we have become the global leader <br />and are passionate about discovering the finest things.

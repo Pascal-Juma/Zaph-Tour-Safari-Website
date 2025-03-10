@@ -14,7 +14,7 @@ function Destinations() {
     <>
       <div className="destinations-section">
         <div className="destinations-intro">
-        < Intro title="Modern & Beautiful" text="Our Most Popular Safaris" />
+        < Intro title="Modern & Beautiful" text="Our Most Popular Safaris" color="black" />
         </div>
         <div className="destinations-cards">
           <Card img={mtKenya} title={"Mt Kenya"} ratings={<FaStar />}ratingsa={<FaStar />}ratingsb={<FaStar />}ratingsc={<FaStar />}ratingsd={<FaStar />} details={"Lorem ipsum dolor sit amet, consect elit sed do eiusmod tempor incididunt."} prices={"From"} payment={"$450"} price={"per Adult"} link={"Explore Now"}/>

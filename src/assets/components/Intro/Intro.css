@@ -4,10 +4,21 @@
     color: var(--color-red);
     font-weight: 500;
 }
-.text-ref{
+.textRef{
     font-family: var(--prime-font);
     font-size:  3.5rem;
     font-weight: 600;
+}
+.black{
+    font-family: var(--prime-font);
+    font-size:  3.5rem;
+    font-weight: 600;
+}
+.white{
+    font-family: var(--prime-font);
+    font-size:  3.9rem;
+    font-weight: 600;
+    color: var(--color-white);
 }
 .intro-text{
     margin-bottom: 2.5rem;

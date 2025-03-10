@@ -1,14 +1,20 @@
 import './Intro.css'
 
-function Intro(props) {
+function Intro({title, text, color}) {
+  let textRef;
+  if(color === "black"){
+    textRef = "black"
+  }else if (color === "white"){
+    textRef = "white"
+  }
   return (
     <>
       <div className="introduction">
         <div className="intro-title">
-            <h1 className="title-ref">{props.title}</h1>
+            <h1 className="title-ref">{title}</h1>
         </div>
         <div className="intro-text">
-            <h2 className="text-ref">{props.text}</h2>
+            <h2 className={color}>{text}</h2>
         </div>
       </div>
     </>
