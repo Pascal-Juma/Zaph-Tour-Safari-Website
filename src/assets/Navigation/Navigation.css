@@ -13,7 +13,7 @@
     font-weight: 500;
 }
 .active-link{
-    color: var(--color-red);
+    color: var(--color-red)!important;
 }
 .nav-list a{
     color: var(--color-white);

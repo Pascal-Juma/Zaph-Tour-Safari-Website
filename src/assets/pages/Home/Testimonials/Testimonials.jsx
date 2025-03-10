@@ -18,7 +18,7 @@ function Testimonials() {
         </div>
         <div className="testimonials-container">
             <Palate img={daisy} name={"Daisy Debroux"} description={"Tourist"}comments={"Anyone who enjoys exploring new trails for hiking should utilize this for additional inspiration. My friends and I had a great time on the excursions."}/>
-            <Palate img={pascal} name={"Pascal Girard"} description={"Client"}comments={"If you love discovering new hiking trails, you should take advantage of this for extra motivation. My friends and I had an amazing experience on the adventures."}/>
+            <Palate img={pascal} name={"Niklaus Girard"} description={"Client"}comments={"If you love discovering new hiking trails, you should take advantage of this for extra motivation. My friends and I had an amazing experience on the adventures."}/>
             <Palate img={jake} name={"Mitchel  Gatzambithe"} description={"Customer"}comments={"My friends and I had a fantastic time on our adventures. If you enjoy exploring new hiking paths, you should seize this opportunity for added motivation."}/>
             </div>
         </div>

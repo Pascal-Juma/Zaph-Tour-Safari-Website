@@ -85,5 +85,9 @@
     margin-left: 1rem;
 }
 .footer-rights{
-    line-height: 1.5;
+    line-height: 1.7;
+}
+.rights-branding{
+    color: var(--color-red);
+    font-weight: 700;
 }

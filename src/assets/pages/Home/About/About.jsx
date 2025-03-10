@@ -7,7 +7,7 @@ import aboutRight from "../../../images/aboutRight.jpg";
 function About() {
   return (
     <>
-      <section className="about-section">
+      <section className="about-section" id="about">
         <div className="about-left">
         <Headings />
         <div className="about-description">

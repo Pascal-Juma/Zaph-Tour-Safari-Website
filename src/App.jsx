@@ -4,7 +4,6 @@ import Blog from './assets/pages/Blog/Blog'
 import Destination from './assets/pages/Destination/Destination'
 import Safari from './assets/pages/Safari/Safari'
 import Contact from './assets/pages/Safari/Safari'
-import Footer from './assets/components/Footer/Footer'
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
     </>
   )
 }

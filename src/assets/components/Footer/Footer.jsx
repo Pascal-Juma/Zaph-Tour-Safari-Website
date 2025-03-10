@@ -57,7 +57,7 @@ function Footer() {
         <div className="footer-socials">
           <FaFacebookF /> <FaXTwitter /> <CiLinkedin /> <FaInstagram />
           <p className="footer-rights">
-            &copy; 2025. All Rights Reserved.Powered by Creative Minds.
+            &copy; 2025. All Rights Reserved. Powered by Creative <span className="rights-branding">Vortex.</span>
           </p>
         </div>
       </div>

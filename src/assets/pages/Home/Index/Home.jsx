@@ -1,6 +1,7 @@
-import Header from '../../../components/Header/Header'
 import Hero from '../Hero/Hero'
 import About from '../About/About'
+import Header from '../../../components/Header/Header'
+import Footer from '../../../components/Footer/Footer'
 import Destinations from '../Destinations/Destinations'
 import Testimonials from '../Testimonials/Testimonials'
 import Newsletter from '../Newsletter/Newsletter'
@@ -17,6 +18,7 @@ function Home() {
           <Destinations />
           <Testimonials />
           <Newsletter />
+          <Footer />
     </>
   )
 }
