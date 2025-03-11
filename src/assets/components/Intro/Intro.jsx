@@ -6,6 +6,8 @@ function Intro({title, text, color}) {
     textRef = "black"
   }else if (color === "white"){
     textRef = "white"
+  }else if (color === "dark"){
+    textRef ="dark"
   }
   return (
     <>

@@ -10,7 +10,7 @@ function Navigation() {
           <Links to={"/blog"} label="Blog" />
           <Links to={"/safari"} label="Safari" />
           <Links to={"/destination"} label="Destination" />
-          <Links to={"/blog"} label="About Us" />
+          <Links to={"/aboutus"} label="AboutUs" />
           <Links to={"/"} label="Home" />
       </ol>
    </nav>

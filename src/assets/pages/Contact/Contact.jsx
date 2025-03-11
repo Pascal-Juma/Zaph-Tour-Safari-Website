@@ -1,3 +1,6 @@
+import Header from '../../components/Header/Header'
+import Intro from '../../components/Intro/Intro'
+import Footer from '../../components/Footer/Footer'
 import { IoLocationOutline } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
@@ -7,7 +10,13 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <>
+    <>    
+      <div className="contact-page-headings">
+        <Header />
+        <div className="contact-intro">
+          <Intro title="Contact Us" text="Get in Touch" color="white" />
+        </div>
+      </div>
       <div className="contact-upper-section">
         <div className="contact-form-inputs">
           <div className="form-title">
@@ -69,8 +78,15 @@ function Contact() {
           </div>
         </div>
       </div>
+      <div className="map-heading">      <Intro text="We are deeply commited to delivering unparalled service to our customers" title="Get directions" color="dark" /></div>
+      <div className="map-section">
+        <div className="gmap-iframe">
+        <iframe width="70%" height="450" title="Zaph Tours" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=70%25&amp;height=450&amp;hl=en&amp;q=New%20Orleans+(Zaph%20Tours)&amp;t=&amp;z=6&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/drones/">drones ireland</a></iframe>
+        </div>
+      </div>
+      <Footer />
     </>
-  );
+  )
 }
 
 export default Contact
