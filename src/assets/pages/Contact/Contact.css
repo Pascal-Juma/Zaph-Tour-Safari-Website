@@ -1,0 +1,150 @@
+.contact-upper-section{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+.contact-form-inputs{
+    width: 58rem;
+    border-radius: .5rem;
+    box-shadow: .1rem .1rem 1rem rgba(5, 5, 5, .5);
+}
+.form-heading{
+    font-size: 2.9rem;
+    font-family: var(--prime-font);
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.form-container{
+    margin-left: 2rem;
+}
+.contact-user{
+    width: 25rem;
+    padding: 1.2rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: var(--color-grey-light);
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    border: .1rem solid var(--color-grey);
+    margin-right: 1rem;
+    font-family: var(--secondary-font);
+}
+.contact-user::placeholder{
+    font-family: var(--secondary-font);
+    font-size: 1.6rem;
+    color: var(--color-grey);
+}
+.contact-email{
+    width: 28rem;
+    padding: 1.2rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: var(--color-grey-light);
+    font-size: 1.6rem;
+    border: .1rem solid var(--color-grey);
+    font-family: var(--secondary-font);
+}
+.contact-email::placeholder{
+    font-size: 1.6rem;
+    font-family: var(--secondary-font);
+    color: var(--color-grey);
+}
+.contact-message{
+    width: 54rem;
+    height: 12rem;
+    border: none;
+    border-radius: .5rem;
+    border: .1rem solid var(--color-grey);
+    background-color: var(--color-grey-light);
+    padding-left: 1.2rem;
+    font-family: var(--secondary-font);
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}
+.contact-message::placeholder{
+    font-size: 1.6rem;
+    color: var(--color-grey);
+    font-family: var(--color-grey);;
+}
+.form-send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.company-email-title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--color-red);
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+    font-family: var(--tertiary-font);
+}
+.company-email-heading{
+    font-size: 2.8rem;
+    font-family: var(--prime-font);
+    margin-bottom: .8rem;
+}
+.official-email{
+    color: var(--color-grey);
+    font-size: 1.8rem;
+}
+.official-email svg{
+    font-size: 2.2rem;
+    color: var(--color-red);
+}
+.landline-phone{
+    color:var(--color-red);
+    font-size: 2.5rem;
+    font-family: var(--tertiary-font);
+    margin-top: 1rem;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+.landline-heading{
+    font-size: 2.8rem;
+    font-family: var(--prime-font);
+    margin-bottom: .8rem;
+}
+.official-landline{
+    color: var(--color-grey);
+    font-size: 1.8rem;
+}
+.official-landline svg{
+    font-size: 2.2rem;
+    color: var(--color-red);
+}
+.company-physical{
+    font-size: 2.5rem;
+    font-family: var(--tertiary-font);
+    font-weight: 500;
+    color: var(--color-red);
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+}
+.physical-heading{
+    font-size: 2.8rem;
+    font-family: var(--prime-font);
+    margin-bottom: .8rem;
+}
+.official-location{
+    color: var(--color-grey);
+    font-size: 1.8rem;
+}
+.official-location svg{
+    color: var(--color-red);
+    font-size: 2.2rem;
+}
+.contact-company-email{
+    padding-bottom: 1rem;
+    border-bottom: .1rem solid var(--color-grey);
+}
+.contact-company-landline{
+    padding-bottom: 1rem;
+    border-bottom: .1rem solid var(--color-grey);
+}

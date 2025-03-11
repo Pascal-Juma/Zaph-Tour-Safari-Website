@@ -50,7 +50,7 @@ function Footer() {
             />
             <Handle
               icon={<IoLocationOutline />}
-              text="386 Majestic Blvd, Along Mystic -New Orleans Road"
+              text="386 Majestic Blvd, Along Mystic - New Orleans Road"
             />
           </div>
         </div>

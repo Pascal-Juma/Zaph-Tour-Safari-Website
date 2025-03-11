@@ -3,7 +3,7 @@ import Home from './assets/pages/Home/Index/Home'
 import Blog from './assets/pages/Blog/Blog'
 import Destination from './assets/pages/Destination/Destination'
 import Safari from './assets/pages/Safari/Safari'
-import Contact from './assets/pages/Safari/Safari'
+import Contact from './assets/pages/Contact/Contact'
 
 function App() {
   return (

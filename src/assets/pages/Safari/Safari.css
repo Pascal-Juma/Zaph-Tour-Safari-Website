@@ -16,3 +16,13 @@
     gap: 6rem;
     margin-block: 6rem;
 }
+.safari-intro{
+    text-align: center;
+}
+.blog-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 5rem;
+}

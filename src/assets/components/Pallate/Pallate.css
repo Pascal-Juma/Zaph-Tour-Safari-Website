@@ -7,6 +7,8 @@
 }
 .pallate-photo img{
     width: 51rem;
+    height: 34rem;
+    object-fit: cover;
 }
 .pallate-type{
     font-size: 2.5rem;
@@ -18,7 +20,7 @@
 .pallate-likes{
     font-size: 1.8rem;
     color: var(--color-gold);
-    margin-left: 22rem;
+    margin-left: 2rem;
 }
 .pallate-city{
     font-size: 2.5rem;
@@ -52,4 +54,14 @@
     color: var(--color-grey);
     margin-left: 1rem;
     text-decoration: line-through;
+}
+.pallate-cta{
+    margin-left: 22rem;
+}
+.pallate-cta a{
+    color: var(--color-black);
+    font-size: 2rem;
+}
+.pallate-cta a:hover{
+    color: var(--color-red);
 }

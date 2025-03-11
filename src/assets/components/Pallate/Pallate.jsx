@@ -1,6 +1,6 @@
 import './Pallate.css'
 
-function Pallate({photo, safari, likes, likesa, likesb, likesc, likesd, city, gps, gpsa,awareness, pricing, offer}) {
+function Pallate({photo, safari, likes, likesa, likesb, likesc, likesd, city, gps, gpsa,awareness, pricing, offer, cta}) {
   return (
     <>
       <div className="pallate-container">
@@ -20,7 +20,7 @@ function Pallate({photo, safari, likes, likesa, likesb, likesc, likesd, city, gp
             {awareness}
         </div>
         <div className="pallate-pricing">
-            {pricing}<span className="pallate-offer">{offer}</span>
+            {pricing}<span className="pallate-offer">{offer}</span> <span className="pallate-cta"><a href="#" rel="noreferrer noopener">{cta}</a></span>
         </div>
       </div>
     </>
