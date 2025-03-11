@@ -1,8 +1,8 @@
 import "./About.css";
 import Headings from "./Headings";
 import Button from "../../../components/Button/Button"
-import aboutLeft from "../../../images/aboutLeft.jpg";
-import aboutRight from "../../../images/aboutRight.jpg";
+import left from  "../../../images/AboutLeft.jpg";
+import right from "../../../images/AboutRight.jpg";
 
 function About() {
   return (
@@ -30,10 +30,10 @@ function About() {
         <div className="about-right">
         <div className="about-image">
             <div  className="image-right">
-                <img src={aboutRight} alt="about right" />
+                <img src={right} alt="about right" />
             </div>
             <div  className="image-left">
-                <img src={aboutLeft} alt="about left" />
+                <img src={left} alt="about left" />
             </div>
         </div>
         </div>
