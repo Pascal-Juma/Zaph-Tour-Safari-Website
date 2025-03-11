@@ -6,7 +6,7 @@ import { CiLinkedin } from "react-icons/ci";
 import "./Footer.css";
 import Logo from "../Logo/Logo";
 import Handle from "../Handle/Handle/Handle";
-import Links from '../Links/Links'
+import Links from "../Links/Links";
 
 function Footer() {
   return (
@@ -30,10 +30,10 @@ function Footer() {
           <div className="links-list">
             <ol>
               <Links to={"/contact"} label="Contact Us" />
-              <Links to={"/blog"} label="Blog" />
+              <Links to={"/blogs"} label="Blog" />
               <Links to={"/safari"} label="Safari" />
               <Links to={"/destination"} label="Destination" />
-              <Links to={"/blog"} label="About Us" />
+              <Links to={"/aboutus"} label="About Us" />
               <Links to={"/"} label="Home" />
             </ol>
           </div>

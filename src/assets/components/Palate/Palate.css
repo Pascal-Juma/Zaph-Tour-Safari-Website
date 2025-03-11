@@ -5,6 +5,12 @@
     box-shadow: .4rem .6rem 3rem rgba(133, 133, 133, .8);
     padding: 2.5rem;
 }
+@media screen and (max-width: 28.125em){
+    .testimonial-card{
+        width: 31rem;
+        height: 27rem;
+    }
+}
 .card-top{
     border-radius: .5rem;
     background-color: rgba(249, 249, 249, .9);

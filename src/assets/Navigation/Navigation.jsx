@@ -7,10 +7,10 @@ function Navigation() {
     <nav className="header-navigation">
       <ol className="nav-list">
           <Links to={"/contact"} label="Contact Us" />
-          <Links to={"/blog"} label="Blog" />
+          <Links to={"/blogs"} label="Blog" />
           <Links to={"/safari"} label="Safari" />
           <Links to={"/destination"} label="Destination" />
-          <Links to={"/aboutus"} label="AboutUs" />
+          <Links to={"/aboutus"} label="About Us" />
           <Links to={"/"} label="Home" />
       </ol>
    </nav>

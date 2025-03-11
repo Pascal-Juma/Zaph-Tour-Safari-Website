@@ -4,6 +4,7 @@
     justify-content: center;
     height: 100vh;
     flex-wrap: wrap;
+    margin-left: 8rem;
 }
 .hero-details{
     border-right: .2rem solid var(--color-grey);

@@ -1,7 +1,7 @@
 import Header from "../../components/Header/Header";
 import Intro from "../../components/Intro/Intro";
-import About from "../../pages/Home/About/About";
-import Newsletter from "../../pages/Home/Newsletter/Newsletter";
+import About from "../Home/About/About";
+import Newsletter from "../Home/Newsletter/Newsletter";
 import Footer from "../../components/Footer/Footer";
 import "./AboutUs.css";
 
