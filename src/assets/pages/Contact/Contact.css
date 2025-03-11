@@ -148,3 +148,21 @@
     padding-bottom: 1rem;
     border-bottom: .1rem solid var(--color-grey);
 }
+@media screen and (max-width: 39.875em){
+    .contact-upper-section{
+   padding-inline: 2rem;
+    }
+    .contact-form-inputs{
+   width: 38rem;
+    }
+    .contact-user{
+    width: 5rem;
+    }
+    .contact-email{
+    width: 15rem;
+    }
+    .contact-message{
+    width: 25rem;
+    height: 4rem;
+    }
+}

@@ -14,6 +14,8 @@ import luxury from '../../images/luxury-tours.jpg'
 import wildlife from '../../images/wildlife.jpg'
 import Platter from '../../components/Platter/Platter'
 import cheetah from '../../videos/cheetah.mp4'
+import lioness from '../../videos/lioness.mp4'
+import cookingCamp from '../../videos/campers.mp4'
 import { FaStar, FaStarHalfStroke } from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
 import './Safari.css'
@@ -47,8 +49,8 @@ function Safari() {
       </div>
       <div className="blog-description">
         <Platter video={cheetah} trends={"Why do people Travel? Reasons people travel in 2025"} extend={"Read More"}/>
-        <Platter video={cheetah} trends={"Jungle King in Kisumu Impala National Park "} extend={"Read More"}/>
-        <Platter video={cheetah} trends={"Travellers visiting the Great Santorini Island Camping"} extend={"Read More"}/>
+        <Platter video={lioness} trends={"A lioness resting on the ground in the Impala National Park, Kisumu"} extend={"Read More"}/>
+        <Platter video={cookingCamp} trends={"Campers cooking food on a portable stove outside a tent"} extend={"Read More"}/>
       </div>
       <Newsletter />
       <Footer />
