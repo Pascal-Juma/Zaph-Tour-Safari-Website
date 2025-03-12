@@ -1,10 +1,9 @@
 .aboutus-headings{
-    border: var(--border);
     background-image: linear-gradient(to right, rgba(5, 5, 5, .4), rgba(5, 5, 5, .8)), url(../../images/King.jpg);
     background-position: center;
     background-size: cover;
 }
 .aboutus-intro{
     margin-left: 5rem;
-    margin-top:2rem;
+    margin-top: 2rem;
 }
